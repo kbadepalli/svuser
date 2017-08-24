@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SV User</title>
+		<link rel="stylesheet" href="./vendor/bootstrap.min.css">
+		<link rel="stylesheet" href="./style.css">
+		<base href="/">
+	</head>
+	<body ng-app="app">
+
+		<app-header></app-header>
+
+		<div class="container">
+			<ng-view></ng-view>
+		</div>
+
+		<script src="./vendor/jquery.min.js"></script>
+		<script src="./vendor/bootstrap.min.js"></script>
+		<script src="./vendor/angular.min.js"></script>
+		<script src="./vendor/angular-route.min.js"></script>
+		<script src="./bundle.js"></script>
+
+		<!-- Google Places API -->
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDqu2piQGiOV701jFAyRfxd2zKdo8LP5IQ&libraries=places"></script>
+		<script src="./vendor/ngplacesmap.min.js"></script>
+	</body>
+</html>
